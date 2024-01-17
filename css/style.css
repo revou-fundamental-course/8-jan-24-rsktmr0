@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D2E3C8;  
+}
+
+header {
+    text-align: center
+}
+
+header h1 {
+    color: #ffffff;
+    background-color: #4F6F52;
+    padding: 2.5%;
+    border-radius: 10px;
+    margin-top: 0;
+    font-size: 25px;
+    font-family: cursive;
+    .katik {font-size: 50px;}
+}
+
+header h2 {
+    margin-top: 50px;
+}
+
+header p {
+    margin-top: -10px;
+    font-size: smaller;
+}
+
+header nav {
+    background-color: #86A789;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+main {
+    border: 2px solid;
+    border-top: 0px;
+    border-color: #4F6F52;
+    padding-bottom: 120px;
+}
+
+.squareArea {
+    background-color: #4F6F52;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+main img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+main p {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.rumus {
+    text-align: center ;
+    margin: auto;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    align-items: center;
+}
+
+#squareSideArea {
+    margin-top: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: solid #86A789;
+    padding: 10px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#squareSide:focus {
+    border: solid #4F6F52;
+}
+
+.buttons {
+    position: relative;
+    height: 100px;
+}
+
+button {
+    background-color: #739072;
+    color:#ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: #4F6F52;
+}
+
+button:active {
+    background-color: #3A4D39;
+    transform: translateY(2px);
+}
+
+#countArea {
+    display: block;
+    margin: auto;
+}
+
+#resetArea {
+    position: absolute;
+    right: 10px;
+    bottom: -100px;
+    background-color: #A94438;
+}
+
+#resetArea:hover {
+    background-color: #BF3131;
+}
+
+#resetArea:active {
+    background-color: #7D0A0A;
+}
+
+#squareSidePerimeter {
+    margin-top: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: solid #86A789;
+    padding: 10px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.squarePerimeter {
+    background-color: #4F6F52;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+#countPerimeter {
+    display: block;
+    margin: auto;
+}
+
+#resetPerimeter {
+    position: absolute;
+    right: 10px;
+    bottom: -100px;
+    background-color: #A94438;
+}
+
+#resetPerimeter:hover {
+    background-color: #BF3131;
+}
+
+#resetPerimeter:active {
+    background-color: #7D0A0A;
+}
+
+.result {
+    margin-left: 10px;
+}
+
+    
